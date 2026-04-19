@@ -1,0 +1,20 @@
+{
+  "name": "bare-server-gas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vp run build --recursive",
+    "check": "vp run check --recursive",
+    "test": "vp run test --recursive",
+    "deploy": "vp run deploy --filter @bare-server-gas/bare-server-gas",
+    "fmt": "prettier --write ."
+  },
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "vite-plus": "^0.1.16"
+  },
+  "dependencies": {
+    "prettier": "^3.8.3"
+  }
+}

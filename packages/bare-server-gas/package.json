@@ -1,0 +1,20 @@
+{
+  "name": "@bare-server-gas/bare-gas-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vp build",
+    "check": "vp check src/",
+    "deploy": "vp exec clasp push"
+  },
+  "dependencies": {
+    "@bare-server-gas/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@gas-plugin/unplugin": "^0.1.2",
+    "@google/clasp": "^3.3.0",
+    "@types/google-apps-script": "^2.0.8",
+    "vite-plus": "^0.1.16"
+  }
+}

@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+specs/
+specifications-v4/
+
+# CLASP credentials
+.clasp.json
+.clasp.json.bak
+.clasprc.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+*.swp
+*.swo
